@@ -4,6 +4,7 @@ def avg_max_min(input_list):
     min_value=101
     sum_value=0
     results=[]
+    
     for v in range(len(input_list)):
         sum_value=sum_value+int(input_list[v])
         if int(input_list[v])>max_value:
